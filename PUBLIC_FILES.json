@@ -1,0 +1,102 @@
+{
+  "scenario": "B",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": ".gitignore",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "CREDITS.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "LICENSE",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "PUBLICATION_READY.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "README.es.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "README.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "RELEASE_NOTES_v1.6.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "SECURITY.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "VALIDATION.json",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/ENGINE_INTEGRATION.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/L4_DEPENDENCY_REVIEW.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/LEGAL_STATUS.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/LICENSE_RESEARCH_FOLLOWUP.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/MEDIA.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/OPENGL_LICENSE_REVIEW.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/PERMISSION_REQUESTS.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/RESOURCE_PROVENANCE.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/TECHNICAL.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "license_scope": "MIT; original project documentation/configuration; see LICENSE_SCOPE.md"
+    }
+  ],
+  "metadata": [
+    "PUBLIC_FILES.json",
+    "SHA256SUMS.txt"
+  ],
+  "note": "Metadata uses the same original documentation MIT scope. SHA256SUMS excludes itself."
+}

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-20",
+  "timezone": "America/Santiago",
+  "scenario": "B",
+  "distribution": "documentation-only; not buildable or installable",
+  "payload_policy": "explicit allowlist; UTF-8 documentation/configuration/metadata only",
+  "secret_pattern_findings": [],
+  "broken_local_links": [],
+  "license": "Original documentation/configuration: MIT; external works excluded",
+  "engine_binary_game_save_key_payloads": 0,
+  "screenshots": "excluded: no verified image-specific permission",
+  "git_history": "not included; separate temporary index used for whitespace/staging verification",
+  "runtime_changes_builds_sd_access_remote_actions": 0,
+  "limitations": "Pattern scanning is not a universal guarantee; upstream remote links may change or be unavailable. Prior focused evidence is identified separately from fresh web checks."
+}
