@@ -1,0 +1,702 @@
+[
+  {
+    "package": "block-0.1.6",
+    "resolution": "PENDIENTE",
+    "declared_license": "MIT",
+    "repository": "SSheldon/rust-block",
+    "revision": "47178790cfc9d4a8b092051d8b413b78bd31254a",
+    "revision_basis": "matching release tag",
+    "verified_path_in_vcs": "",
+    "vcs": {},
+    "crate_archive_sha256": "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 3,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": []
+  },
+  {
+    "package": "fortanix-sgx-abi-0.6.1",
+    "resolution": "RESUELTO",
+    "declared_license": "MPL-2.0",
+    "repository": "fortanix/rust-sgx",
+    "revision": "adcc6cdb981bcf2101437edbd3ef6144246621d3",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "intel-sgx/fortanix-sgx-abi",
+    "vcs": {
+      "git": {
+        "sha1": "adcc6cdb981bcf2101437edbd3ef6144246621d3"
+      },
+      "path_in_vcs": "intel-sgx/fortanix-sgx-abi"
+    },
+    "crate_archive_sha256": "5efc85edd5b83e8394f4371dd0da6859dff63dd387dab8568fece6af4cde6f84",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 2,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/fortanix-sgx-abi-0.6.1/LICENSE",
+        "url": "https://raw.githubusercontent.com/fortanix/rust-sgx/adcc6cdb981bcf2101437edbd3ef6144246621d3/LICENSE",
+        "sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+      }
+    ]
+  },
+  {
+    "package": "gl_generator-0.14.0",
+    "resolution": "RESUELTO",
+    "declared_license": "Apache-2.0",
+    "repository": "brendanzab/gl-rs",
+    "revision": "ea503e8d5fb6d73c6030e6191ce738cd3bf3433e",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "gl_generator",
+    "vcs": {
+      "git": {
+        "sha1": "ea503e8d5fb6d73c6030e6191ce738cd3bf3433e"
+      }
+    },
+    "crate_archive_sha256": "1a95dfc23a2b4a9a2f5ab41d194f8bfda3cabec42af4e39f08c339eb2a0c124d",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 14,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/gl_generator-0.14.0/LICENSE",
+        "url": "https://raw.githubusercontent.com/brendanzab/gl-rs/ea503e8d5fb6d73c6030e6191ce738cd3bf3433e/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "package": "jni-0.22.4",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0",
+    "repository": "jni-rs/jni-rs",
+    "revision": "5ae9458a4ec44c5318f37ddc7569c1d4ae8a69e7",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "crates/jni",
+    "vcs": {
+      "git": {
+        "sha1": "5ae9458a4ec44c5318f37ddc7569c1d4ae8a69e7"
+      },
+      "path_in_vcs": "crates/jni"
+    },
+    "crate_archive_sha256": "5efd9a482cf3a427f00d6b35f14332adc7902ce91efb778580e180ff90fa3498",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 71,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 2
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/jni-0.22.4/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/jni-rs/jni-rs/5ae9458a4ec44c5318f37ddc7569c1d4ae8a69e7/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "path": "licenses/recovered-cargo/jni-0.22.4/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/jni-rs/jni-rs/5ae9458a4ec44c5318f37ddc7569c1d4ae8a69e7/LICENSE-MIT",
+        "sha256": "fea1d5bf3dd71605ce5d7d2ff695c1837e914c77195e523a86b5391716477960"
+      }
+    ]
+  },
+  {
+    "package": "jni-macros-0.22.4",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0",
+    "repository": "jni-rs/jni-rs",
+    "revision": "33045a124105c939d1e2cbdcb5a39e5d868ffa03",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "crates/jni-macros",
+    "vcs": {
+      "git": {
+        "sha1": "33045a124105c939d1e2cbdcb5a39e5d868ffa03"
+      },
+      "path_in_vcs": "crates/jni-macros"
+    },
+    "crate_archive_sha256": "a00109accc170f0bdb141fed3e393c565b6f5e072365c3bd58f5b062591560a3",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 10,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/jni-macros-0.22.4/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/jni-rs/jni-rs/33045a124105c939d1e2cbdcb5a39e5d868ffa03/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "path": "licenses/recovered-cargo/jni-macros-0.22.4/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/jni-rs/jni-rs/33045a124105c939d1e2cbdcb5a39e5d868ffa03/LICENSE-MIT",
+        "sha256": "fea1d5bf3dd71605ce5d7d2ff695c1837e914c77195e523a86b5391716477960"
+      }
+    ]
+  },
+  {
+    "package": "jni-sys-macros-0.4.1",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0",
+    "repository": "jni-rs/jni-sys",
+    "revision": "64d77b7a5f119d7b55b4e2c169a4668067ff59e6",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "jni-sys-macros",
+    "vcs": {
+      "git": {
+        "sha1": "64d77b7a5f119d7b55b4e2c169a4668067ff59e6"
+      },
+      "path_in_vcs": "jni-sys-macros"
+    },
+    "crate_archive_sha256": "38c0b942f458fe50cdac086d2f946512305e5631e720728f2a61aabcd47a6264",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 2,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/jni-sys-macros-0.4.1/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/jni-rs/jni-sys/64d77b7a5f119d7b55b4e2c169a4668067ff59e6/LICENSE-APACHE",
+        "sha256": "c6596eb7be8581c18be736c846fb9173b69eccf6ef94c5135893ec56bd92ba08"
+      },
+      {
+        "path": "licenses/recovered-cargo/jni-sys-macros-0.4.1/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/jni-rs/jni-sys/64d77b7a5f119d7b55b4e2c169a4668067ff59e6/LICENSE-MIT",
+        "sha256": "1d85bd754b04ceec93e98e890edd1fa3c6a22e81bcb32135806beeccefa51cd1"
+      }
+    ]
+  },
+  {
+    "package": "khronos_api-3.1.0",
+    "resolution": "RESUELTO",
+    "declared_license": "Apache-2.0",
+    "repository": "brendanzab/gl-rs",
+    "revision": "f150967b1c44ae888e6676f93f639ebc82771bdc",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "khronos_api",
+    "vcs": {
+      "git": {
+        "sha1": "f150967b1c44ae888e6676f93f639ebc82771bdc"
+      }
+    },
+    "crate_archive_sha256": "e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 3,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 66
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/khronos_api-3.1.0/LICENSE",
+        "url": "https://raw.githubusercontent.com/brendanzab/gl-rs/f150967b1c44ae888e6676f93f639ebc82771bdc/LICENSE",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      }
+    ]
+  },
+  {
+    "package": "libffi-3.1.0",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT/Apache-2.0",
+    "repository": "tov/libffi-rs",
+    "revision": "a159bf06c8bc8af619a974005742c9e36311fde3",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "libffi-rs",
+    "vcs": {
+      "git": {
+        "sha1": "a159bf06c8bc8af619a974005742c9e36311fde3"
+      },
+      "path_in_vcs": "libffi-rs"
+    },
+    "crate_archive_sha256": "6cb06d5b4c428f3cd682943741c39ed4157ae989fffe1094a08eaf7c4014cf60",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 21,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/libffi-3.1.0/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/tov/libffi-rs/a159bf06c8bc8af619a974005742c9e36311fde3/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "path": "licenses/recovered-cargo/libffi-3.1.0/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/tov/libffi-rs/a159bf06c8bc8af619a974005742c9e36311fde3/LICENSE-MIT",
+        "sha256": "b766d21b534e9303428c16644ef624e264668525fdcd4c2490865ed023dba842"
+      }
+    ]
+  },
+  {
+    "package": "malloc_buf-0.0.6",
+    "resolution": "PENDIENTE",
+    "declared_license": "MIT",
+    "repository": "SSheldon/malloc_buf",
+    "revision": "a7811e5f4c6f9685dd57ad9bfe34e9bf6b0ba4f9",
+    "revision_basis": "matching release tag",
+    "verified_path_in_vcs": "",
+    "vcs": {},
+    "crate_archive_sha256": "62bb907fe88d54d8d9ce32a3cceab4218ed2f6b7d35617cafe9adf84e43919cb",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 1,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": []
+  },
+  {
+    "package": "ndk-0.9.0",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0",
+    "repository": "rust-mobile/ndk",
+    "revision": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "ndk",
+    "vcs": {
+      "git": {
+        "sha1": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25"
+      },
+      "path_in_vcs": "ndk"
+    },
+    "crate_archive_sha256": "c3f42e7bbe13d351b6bead8286a43aac9534b82bd3cc43e47037f012ebfd62d4",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 26,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/ndk-0.9.0/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-APACHE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "licenses/recovered-cargo/ndk-0.9.0/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-MIT",
+        "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+      }
+    ]
+  },
+  {
+    "package": "ndk-context-0.1.1",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0",
+    "repository": "rust-windowing/android-ndk-rs",
+    "revision": "10f2ba388fca20f7349996ebae26ccda7a6fda5c",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "ndk-context",
+    "vcs": {
+      "git": {
+        "sha1": "10f2ba388fca20f7349996ebae26ccda7a6fda5c"
+      },
+      "path_in_vcs": "ndk-context"
+    },
+    "crate_archive_sha256": "27b02d87554356db9e9a873add8782d4ea6e3e58ea071a9adb9a2e8ddb884a8b",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 3,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/ndk-context-0.1.1/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/rust-windowing/android-ndk-rs/10f2ba388fca20f7349996ebae26ccda7a6fda5c/LICENSE-APACHE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "licenses/recovered-cargo/ndk-context-0.1.1/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/rust-windowing/android-ndk-rs/10f2ba388fca20f7349996ebae26ccda7a6fda5c/LICENSE-MIT",
+        "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+      }
+    ]
+  },
+  {
+    "package": "ndk-sys-0.6.0+11769913",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0",
+    "repository": "rust-mobile/ndk",
+    "revision": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "ndk-sys",
+    "vcs": {
+      "git": {
+        "sha1": "49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25"
+      },
+      "path_in_vcs": "ndk-sys"
+    },
+    "crate_archive_sha256": "ee6cda3051665f1fb8d9e08fc35c96d5a244fb1be711a03b71118828afc9a873",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 9,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/ndk-sys-0.6.0+11769913/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-APACHE",
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "licenses/recovered-cargo/ndk-sys-0.6.0+11769913/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/rust-mobile/ndk/49bbbba16c58ff63cb8a0ad0eca5a9fb7ecaec25/LICENSE-MIT",
+        "sha256": "508a77d2e7b51d98adeed32648ad124b7b30241a8e70b2e72c99f92d8e5874d1"
+      }
+    ]
+  },
+  {
+    "package": "objc-foundation-0.1.1",
+    "resolution": "PENDIENTE",
+    "declared_license": "MIT",
+    "repository": "SSheldon/rust-objc-foundation",
+    "revision": "0c157a59b7931430ed5ac7839381470b0c516d3c",
+    "revision_basis": "matching release tag",
+    "verified_path_in_vcs": "",
+    "vcs": {},
+    "crate_archive_sha256": "1add1b659e36c9607c7aab864a76c7a4c2760cd0cd2e120f3fb8b952c7e22bf9",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 11,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": []
+  },
+  {
+    "package": "objc_id-0.1.1",
+    "resolution": "PENDIENTE",
+    "declared_license": "MIT",
+    "repository": "SSheldon/rust-objc-id",
+    "revision": "6527cdf28fef2b155c67c1681f548ecfd794003c",
+    "revision_basis": "matching release tag",
+    "verified_path_in_vcs": "",
+    "vcs": {},
+    "crate_archive_sha256": "c92d4ddb4bd7b50d730c215ff871754d0da6b2178849f8a2a2ab69712d0c073b",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 3,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": []
+  },
+  {
+    "package": "r-efi-5.3.0",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "r-efi/r-efi",
+    "revision": "97b55bed1c2c91dcbf787674849f05337ff80b33",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "",
+    "vcs": {
+      "git": {
+        "sha1": "97b55bed1c2c91dcbf787674849f05337ff80b33"
+      },
+      "path_in_vcs": ""
+    },
+    "crate_archive_sha256": "69cdb34c158ceb288df11e18b4bd39de994f6657d83847bdffdbd7f346754b0f",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 65,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/r-efi-5.3.0/AUTHORS",
+        "url": "https://raw.githubusercontent.com/r-efi/r-efi/97b55bed1c2c91dcbf787674849f05337ff80b33/AUTHORS",
+        "sha256": "ff92bed461f50338dd703a9ba9aee496a425957873df1d91192776e4bdf5dda7"
+      }
+    ]
+  },
+  {
+    "package": "r-efi-alloc-2.1.0",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0 OR LGPL-2.1-or-later",
+    "repository": "r-efi/r-efi-alloc",
+    "revision": "2341569232a4f4f8196421c71cf94914352dc72b",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "",
+    "vcs": {
+      "git": {
+        "sha1": "2341569232a4f4f8196421c71cf94914352dc72b"
+      },
+      "path_in_vcs": ""
+    },
+    "crate_archive_sha256": "dc2f58ef3ca9bb0f9c44d9aa8537601bcd3df94cc9314a40178cadf7d4466354",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 10,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/r-efi-alloc-2.1.0/AUTHORS",
+        "url": "https://raw.githubusercontent.com/r-efi/r-efi-alloc/2341569232a4f4f8196421c71cf94914352dc72b/AUTHORS",
+        "sha256": "fba3318d0c600380177edf7ba4778ff6588faa8d106c679ac5dfee620011239c"
+      }
+    ]
+  },
+  {
+    "package": "rustysynth-1.3.6",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT",
+    "repository": "sinshu/rustysynth",
+    "revision": "8cc11fc0b10422adb54107757f100d3d6ae0ef96",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "rustysynth",
+    "vcs": {
+      "git": {
+        "sha1": "8cc11fc0b10422adb54107757f100d3d6ae0ef96"
+      },
+      "path_in_vcs": "rustysynth"
+    },
+    "crate_archive_sha256": "e3ca93af923df5fc03beddbf464242620fd24daa9e10f9ecd56eb9571eb7ba38",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 0,
+      "line_endings_only": 43,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/rustysynth-1.3.6/LICENSE.txt",
+        "url": "https://raw.githubusercontent.com/sinshu/rustysynth/8cc11fc0b10422adb54107757f100d3d6ae0ef96/LICENSE.txt",
+        "sha256": "d119e5c37dfd340afecc109e5b1b60ff24d7bc1f230802fe85e84675690d5011"
+      }
+    ]
+  },
+  {
+    "package": "vex-sdk-0.27.1",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT",
+    "repository": "vexide/vex-sdk",
+    "revision": "6c0b83d35b6fc31a7607efe456e387df45476314",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "packages/vex-sdk",
+    "vcs": {
+      "git": {
+        "sha1": "6c0b83d35b6fc31a7607efe456e387df45476314",
+        "dirty": true
+      },
+      "path_in_vcs": "packages/vex-sdk"
+    },
+    "crate_archive_sha256": "79e5fe15afde1305478b35e2cb717fff59f485428534cf49cfdbfa4723379bf6",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 30,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/vex-sdk-0.27.1/LICENSE.md",
+        "url": "https://raw.githubusercontent.com/vexide/vex-sdk/6c0b83d35b6fc31a7607efe456e387df45476314/LICENSE.md",
+        "sha256": "7bc7d5de2a0b793d4e1adb7ffcb99387776adc1f15f055bc3b667ea449249e6a"
+      }
+    ]
+  },
+  {
+    "package": "wasip1-1.0.0",
+    "resolution": "RESUELTO",
+    "declared_license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "repository": "bytecodealliance/wasi",
+    "revision": "e55b3b02fcda2a016f5df14573ff05c5b1e313d6",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "crates/wasip1",
+    "vcs": {
+      "git": {
+        "sha1": "e55b3b02fcda2a016f5df14573ff05c5b1e313d6"
+      },
+      "path_in_vcs": "crates/wasip1"
+    },
+    "crate_archive_sha256": "b5e26842486624357dbeb8f0381cf1fb42f022291fd787d4a816768fec8cc760",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 5,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/wasip1-1.0.0/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/bytecodealliance/wasi/e55b3b02fcda2a016f5df14573ff05c5b1e313d6/LICENSE-APACHE",
+        "sha256": "a60eea817514531668d7e00765731449fe14d059d3249e0bc93b36de45f759f2"
+      },
+      {
+        "path": "licenses/recovered-cargo/wasip1-1.0.0/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "url": "https://raw.githubusercontent.com/bytecodealliance/wasi/e55b3b02fcda2a016f5df14573ff05c5b1e313d6/LICENSE-Apache-2.0_WITH_LLVM-exception",
+        "sha256": "268872b9816f90fd8e85db5a28d33f8150ebb8dd016653fb39ef1f94f2686bc5"
+      },
+      {
+        "path": "licenses/recovered-cargo/wasip1-1.0.0/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/bytecodealliance/wasi/e55b3b02fcda2a016f5df14573ff05c5b1e313d6/LICENSE-MIT",
+        "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3"
+      }
+    ]
+  },
+  {
+    "package": "winapi-i686-pc-windows-gnu-0.4.0",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT/Apache-2.0",
+    "repository": "retep998/winapi-rs",
+    "revision": "30ed8e3b86f4a8a55e68865843c19800f57bcd7f",
+    "revision_basis": "last upstream commit before registry release; source comparison required",
+    "verified_path_in_vcs": "i686",
+    "vcs": {},
+    "crate_archive_sha256": "ac3b87c63620426dd9b991e5ce0329eff545bccbbb34f3be09ff6fb6ab51b7b6",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 1389,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/winapi-i686-pc-windows-gnu-0.4.0/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/retep998/winapi-rs/30ed8e3b86f4a8a55e68865843c19800f57bcd7f/LICENSE-APACHE",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+      },
+      {
+        "path": "licenses/recovered-cargo/winapi-i686-pc-windows-gnu-0.4.0/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/retep998/winapi-rs/30ed8e3b86f4a8a55e68865843c19800f57bcd7f/LICENSE-MIT",
+        "sha256": "5b19674a1db628a475850a131956ed49521b744e3dda8f5a94141f9aba681219"
+      }
+    ]
+  },
+  {
+    "package": "winapi-x86_64-pc-windows-gnu-0.4.0",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT/Apache-2.0",
+    "repository": "retep998/winapi-rs",
+    "revision": "30ed8e3b86f4a8a55e68865843c19800f57bcd7f",
+    "revision_basis": "last upstream commit before registry release; source comparison required",
+    "verified_path_in_vcs": "x86_64",
+    "vcs": {},
+    "crate_archive_sha256": "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 1418,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/winapi-x86_64-pc-windows-gnu-0.4.0/LICENSE-APACHE",
+        "url": "https://raw.githubusercontent.com/retep998/winapi-rs/30ed8e3b86f4a8a55e68865843c19800f57bcd7f/LICENSE-APACHE",
+        "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+      },
+      {
+        "path": "licenses/recovered-cargo/winapi-x86_64-pc-windows-gnu-0.4.0/LICENSE-MIT",
+        "url": "https://raw.githubusercontent.com/retep998/winapi-rs/30ed8e3b86f4a8a55e68865843c19800f57bcd7f/LICENSE-MIT",
+        "sha256": "5b19674a1db628a475850a131956ed49521b744e3dda8f5a94141f9aba681219"
+      }
+    ]
+  },
+  {
+    "package": "zune-core-0.4.12",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0 OR Zlib",
+    "repository": "etemesi254/zune-image",
+    "revision": "f8fbb123d5ed04441e8324a555bfcda0cb1bd28f",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "crates/zune-core",
+    "vcs": {
+      "git": {
+        "sha1": "f8fbb123d5ed04441e8324a555bfcda0cb1bd28f"
+      },
+      "path_in_vcs": "crates/zune-core"
+    },
+    "crate_archive_sha256": "3f423a2c17029964870cfaabb1f13dfab7d092a62a29a89264f4d36990ca414a",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 15,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 0
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/zune-core-0.4.12/LICENSE-ZLIB",
+        "url": "https://raw.githubusercontent.com/etemesi254/zune-image/f8fbb123d5ed04441e8324a555bfcda0cb1bd28f/LICENSE-ZLIB",
+        "sha256": "7fa429541e55b1509909e058f2d21a37467e4958ec713b357f6e0cf9dc4ee352"
+      },
+      {
+        "path": "licenses/recovered-cargo/zune-core-0.4.12/LICENSE.md",
+        "url": "https://raw.githubusercontent.com/etemesi254/zune-image/f8fbb123d5ed04441e8324a555bfcda0cb1bd28f/LICENSE.md",
+        "sha256": "c6dff146a9f31848ac296faa5a08a4253caf2c384c86f906dc99e7fc0a39cc8c"
+      }
+    ]
+  },
+  {
+    "package": "zune-jpeg-0.4.21",
+    "resolution": "RESUELTO",
+    "declared_license": "MIT OR Apache-2.0 OR Zlib",
+    "repository": "etemesi254/zune-image",
+    "revision": "fa2c767a01d7d9373911d0bf63e0588553d67e0e",
+    "revision_basis": "exact .cargo_vcs_info.json commit",
+    "verified_path_in_vcs": "crates/zune-jpeg",
+    "vcs": {
+      "git": {
+        "sha1": "fa2c767a01d7d9373911d0bf63e0588553d67e0e"
+      },
+      "path_in_vcs": "crates/zune-jpeg"
+    },
+    "crate_archive_sha256": "29ce2c8a9384ad323cf564b67da86e21d3cfdff87908bc1223ed5c99bc792713",
+    "crate_archive_matches_lock": true,
+    "published_archive_upstream_comparison": {
+      "exact": 29,
+      "line_endings_only": 0,
+      "different": 0,
+      "not_in_tree": 1
+    },
+    "supplemental_notices": [
+      {
+        "path": "licenses/recovered-cargo/zune-jpeg-0.4.21/LICENSE-ZLIB",
+        "url": "https://raw.githubusercontent.com/etemesi254/zune-image/fa2c767a01d7d9373911d0bf63e0588553d67e0e/LICENSE-ZLIB",
+        "sha256": "7fa429541e55b1509909e058f2d21a37467e4958ec713b357f6e0cf9dc4ee352"
+      },
+      {
+        "path": "licenses/recovered-cargo/zune-jpeg-0.4.21/LICENSE.md",
+        "url": "https://raw.githubusercontent.com/etemesi254/zune-image/fa2c767a01d7d9373911d0bf63e0588553d67e0e/LICENSE.md",
+        "sha256": "c6dff146a9f31848ac296faa5a08a4253caf2c384c86f906dc99e7fc0a39cc8c"
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+libnx notice: switchbrew/libnx v4.12.0 LICENSE.md
+newlib notice: https://github.com/devkitPro/newlib/blob/master/COPYING.NEWLIB
+newlib notice blob SHA: 2bf6f0bed40635a9398b5a4d9b0828d59bf1213f
+newlib package version: tools/installed-packages.lock.txt (branch notice is not proof of an exact package source audit)
+GCC notices: gcc-mirror/gcc releases/gcc-16.1.0 COPYING.RUNTIME and COPYING3

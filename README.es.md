@@ -1,38 +1,28 @@
-# Reloaded-NX 1.6
+# Reloaded-NX
 
-Ejecutor homebrew nativo para Nintendo Switch basado en OpenGMK, desarrollado para una copia compatible de Pokémon Reloaded obtenida legítimamente y por separado.
+Ejecutor homebrew nativo de Nintendo Switch para Pokémon Reloaded The Last Beta
+1.9.2.2. Integra un motor basado en OpenGMK, audio, controles configurables,
+puntero y persistencia. Para jugar se necesita un EXE y el árbol de datos de una
+copia legítima aportada por separado.
 
-**Edición pública documental — escenario B. Este repositorio no contiene fuentes del motor, instalador, NRO ni archivos del juego. No puede compilarse ni instalarse.** El nombre 1.6 corresponde al ejecutor estable existente; esta publicación no introduce otra versión funcional.
+La candidata 1.6.1-rc.2 lleva la identidad definitiva en hbmenu: Reloaded-NX,
+Flowzart Studio, 1.6.1 e icono RX original. La aceptación física sigue pendiente.
 
-[English](README.md) · [Créditos](CREDITS.md) · [Preparación de publicación](PUBLICATION_READY.md) · [Licencias pendientes](docs/LEGAL_STATUS.md)
+Descarga [v1.6.1-rc.2](https://github.com/flowzart-studio/Reloaded-NX/releases/tag/v1.6.1-rc.2), la pre-release experimental para pruebas comunitarias. La aceptación física sigue pendiente para el NRO exacto y el NSP HOME opcional. La versión de referencia del juego es Pokémon Reloaded The Last Beta 1.9.2.2. La compatibilidad con versiones futuras sigue sin verificar.
 
-**Pedro Soto Almonacid — Flowzart Studio**
+- [Guía de pruebas públicas](docs/PRUEBAS_PUBLICAS.md)
+- [Acceso HOME opcional](docs/FORWARDER_HOME.md)
+- [Instalación y diagnóstico](docs/INSTALL_CANDIDATE.md)
+- [Pruebas en Switch](docs/HARDWARE_ACCEPTANCE.md)
+- [Fuentes y compilación](engine/README.md)
+- [Cambios](CHANGELOG.md)
+- [Créditos](CREDITS.md)
+- [Alcance de licencias](LICENSE_SCOPE.md)
 
-Project Lead & Maintainer
+Reporta fallos reproducibles con versión, SHA-256 del NRO, modelo y firmware,
+escena y pasos. Comparte un fragmento pertinente del log y conserva tus partidas
+y archivos del juego en privado. [Issues](https://github.com/flowzart-studio/Reloaded-NX/issues)
 
-**OpenAI ChatGPT & Codex**
-
-AI-assisted development
-
-## Estado del proyecto
-
-El mantenedor confirma que 1.6 funciona en Nintendo Switch. Una reconstrucción independiente previa pasó la compilación y las comprobaciones estáticas, pero difiere en bytes del NRO estable. No se han acreditado la reproducibilidad exacta ni la equivalencia física de ese binario reconstruido. Esta preparación no compila ni modifica archivos de ejecución.
-
-La línea estable incluye controles configurables, stick derecho y SL/SR, puntero, Mega/combate, PC/mapa/Vuelo, Safari y casino. Estas funciones describen el ejecutor privado estable; no son software entregado aquí.
-
-## Contenido disponible
-
-- [Historia y notas de versión](RELEASE_NOTES_v1.6.md).
-- [Arquitectura y evidencia de compilación](docs/TECHNICAL.md).
-- [Estado de distribución e instalación](docs/USAGE.md).
-- [Permisos pendientes y alternativas](docs/LEGAL_STATUS.md).
-- [Borradores de solicitudes](docs/PERMISSION_REQUESTS.md).
-- [Política de imágenes y capturas](docs/MEDIA.md).
-
-La incorporación del motor requiere resolver la procedencia del atlas Arimo, los términos del código OpenGL generado y cuatro avisos históricos. Los ZIP completos de fuentes e instalación permanecen excluidos. Esta edición no ofrece instalador ni enlace de descarga. El camino para incorporar el motor está en [la lista de integración](docs/ENGINE_INTEGRATION.md).
-
-## Créditos y derechos
-
-Basado en el trabajo de [OpenGMK](https://github.com/OpenGMK/OpenGMK) y la adaptación de [Klisee y colaboradores](https://github.com/Klisee/pokemon-reloaded-android). Pokémon Reloaded fue creado por Fer/F3R y sus colaboradores; consultar sus [menciones oficiales](https://pokemon-reloaded.blogspot.com/2024/04/pokemon-reloaded-menciones.html). No se distribuyen aquí su código, imágenes, música ni recursos.
-
-Proyecto no oficial, sin afiliación con Nintendo, Game Freak, The Pokémon Company ni los desarrolladores originales del juego. Los créditos no conceden permisos sobre materiales ajenos. La documentación original de esta edición usa MIT; esa licencia no se aplica al motor retenido, al juego ni al material externo enlazado. Véanse [el alcance de licencia](LICENSE_SCOPE.md) y [los avisos de terceros](THIRD_PARTY_NOTICES.md).
+Pedro Soto Almonacid / Flowzart Studio dirige y mantiene Reloaded-NX.
+Desarrollo asistido por OpenAI Codex. Proyecto independiente de Nintendo
+y de los creadores del juego. [English](README.md)

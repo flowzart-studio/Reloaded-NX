@@ -1,0 +1,31 @@
+{
+  "arch": "aarch64",
+  "crt-objects-fallback": "false",
+  "data-layout": "e-m:e-p270:32:32-p271:32:32-p272:64:64-i8:8:32-i16:16:32-i64:64-i128:128-n32:64-S128-Fn32",
+  "dynamic-linking": true,
+  "features": "+v8a,+neon,+crypto,+crc",
+  "linker": "rust-lld",
+  "linker-flavor": "gnu-lld",
+  "llvm-target": "aarch64-unknown-none",
+  "max-atomic-width": 128,
+  "metadata": {
+    "description": "Experimental libnx/newlib ABI probe; not a supported Rust target",
+    "std": null,
+    "tier": 3
+  },
+  "os": "horizon",
+  "panic-strategy": "abort",
+  "position-independent-executables": true,
+  "relro-level": "off",
+  "stack-probes": {
+    "kind": "inline"
+  },
+  "target-pointer-width": 64,
+  "vendor": "nintendo",
+  "env": "newlib",
+  "target-family": [
+    "unix"
+  ],
+  "has-thread-local": false,
+  "relocation-model": "pic"
+}

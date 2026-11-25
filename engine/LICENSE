@@ -1,0 +1,9 @@
+This candidate is a multi-license collection, not a blanket MIT work.
+OpenGMK-derived runner code is GPL-2.0-only; original GPL texts/notices remain
+in full-runner and licenses/OpenGMK-GPL-2.0.txt. Independent adapters/scripts
+retain MIT where offered. The new loader/generator uses original project MIT
+code and the actual MIT Khronos-header notice. Noto and the derived bitmap
+remain OFL-1.1 with their notices/source. TimGM6mb and other dependencies retain
+their own licenses/preferred sources. See CANDIDATE_LICENSE_SCOPE.md and
+THIRD_PARTY_NOTICES.md. No license grants rights to the original game.
+AI-assistance credits assign no legal ownership to tools.

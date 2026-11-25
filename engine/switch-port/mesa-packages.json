@@ -1,0 +1,18 @@
+[
+  {
+    "name": "switch-mesa",
+    "version": "20.1.0-5",
+    "sha256": "78328415d06bff75af07091243844ded5a63dc4d4520d2c708787b8d80ad386d",
+    "url": "https://pkg.devkitpro.org/packages/switch-mesa-20.1.0-5-any.pkg.tar.zst",
+    "depends": [
+      "switch-libdrm_nouveau"
+    ]
+  },
+  {
+    "name": "switch-libdrm_nouveau",
+    "version": "1.0.1-2",
+    "sha256": "c587c9c3114ad0b49e8b39c2f2c5238fc5c17bca1be1139996a10fce6c3026d8",
+    "url": "https://pkg.devkitpro.org/packages/switch-libdrm_nouveau-1.0.1-2-any.pkg.tar.xz",
+    "depends": []
+  }
+]

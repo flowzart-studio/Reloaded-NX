@@ -1,0 +1,11 @@
+[package]
+name = "casino-input-contracts"
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-only"
+[lib]
+path = "lib.rs"
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+ramen = { path = "../../full-runner/vendor/ramen" }
+imgui = { version = "0.12", features = ["tables-api"] }

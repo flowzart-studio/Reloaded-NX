@@ -1,0 +1,21 @@
+[workspace]
+resolver = "2"
+exclude = ["gm8emulator-wow64"]
+members = [
+    # main projects
+    "gm8emulator",
+    "online",
+    "gm8decompiler",
+    "gml-parser",
+    "gm8exe",
+]
+
+[profile.release]
+codegen-units = 1
+opt-level = 3
+lto = 'thin'
+strip = true
+
+# Local libc 0.2.191: devkitA64/newlib ABI corrections are Horizon AArch64 only.
+[patch.crates-io]
+libc = { path = "../../../switch-port/vendor/libc-horizon" }

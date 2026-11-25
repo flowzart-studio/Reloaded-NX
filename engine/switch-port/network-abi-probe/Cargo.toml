@@ -1,0 +1,14 @@
+[package]
+name = "reloaded-nx-network-abi-probe"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+[workspace]
+[lib]
+crate-type = ["rlib"]
+[dependencies]
+libc = { path = "../vendor/libc-horizon", default-features = false }
+[profile.release]
+panic = "abort"
+[patch.crates-io]
+libc = { path = "../vendor/libc-horizon" }

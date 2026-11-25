@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-20",
-  "timezone": "America/Santiago",
-  "scenario": "B",
-  "distribution": "documentation-only; not buildable or installable",
-  "payload_policy": "explicit allowlist; UTF-8 documentation/configuration/metadata only",
-  "secret_pattern_findings": [],
-  "broken_local_links": [],
-  "license": "Original documentation/configuration: MIT; external works excluded",
-  "engine_binary_game_save_key_payloads": 0,
-  "screenshots": "excluded: no verified image-specific permission",
-  "git_history": "not included; separate temporary index used for whitespace/staging verification",
-  "runtime_changes_builds_sd_access_remote_actions": 0,
-  "limitations": "Pattern scanning is not a universal guarantee; upstream remote links may change or be unavailable. Prior focused evidence is identified separately from fresh web checks."
+  "archived_base_blob_ids": "PASS",
+  "engine_source_files": 936,
+  "updated_document_links": "PASS",
+  "physical_acceptance": "PENDING",
+  "stage": "LOCAL",
+  "remote_head": "12e84086a4266895fb17f31e8f382f7e61324cbd",
+  "nro_sha256": "32b52aeb13fcb873ffed0288162ff831ef7f4b79f6735f050af015187fbd8d8c",
+  "installer_sha256": "ee02eb54e033c173d418340be8205315ee24e6665c7edd4b0afb5635490df765",
+  "display_author": "Flowzart Studio",
+  "display_version": "1.6.1",
+  "public_track": "experimental_prerelease",
+  "home_forwarder": "STATIC_VERIFIED_PHYSICAL_PENDING",
+  "home_nsp_sha256": "e4ecd58f3a51d2ee4e0fed6b2c95ddbf29453546da96576f603535fde92c7e31"
 }

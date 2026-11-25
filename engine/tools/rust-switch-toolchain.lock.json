@@ -1,0 +1,38 @@
+{
+  "version": "nightly-2026-10-30",
+  "host": "x86_64-pc-windows-gnu",
+  "bridge_target": "aarch64-unknown-none",
+  "reason": "Rebuild core/alloc as PIC for libnx; preserve -z text",
+  "components": [
+    {
+      "name": "rustc",
+      "target": "x86_64-pc-windows-gnu",
+      "url": "https://static.rust-lang.org/dist/2026-10-30/rustc-nightly-x86_64-pc-windows-gnu.tar.xz",
+      "sha256": "bb64b05c3322923918a0e2d882777634338d4641cdd930472a1cdf493e081afe"
+    },
+    {
+      "name": "cargo",
+      "target": "x86_64-pc-windows-gnu",
+      "url": "https://static.rust-lang.org/dist/2026-10-30/cargo-nightly-x86_64-pc-windows-gnu.tar.xz",
+      "sha256": "aa15ed2d2d8ec1d9fed01c8ccfa8635b57b45e70fb8d9b4d861b1ca5d9ba18ea"
+    },
+    {
+      "name": "rust-src",
+      "target": "*",
+      "url": "https://static.rust-lang.org/dist/2026-10-30/rust-src-nightly.tar.xz",
+      "sha256": "e6218c6b5840371f14aab223e17db3c6cfde04c99e87fa7c09472caf366355c2"
+    },
+    {
+      "name": "rust-std",
+      "target": "x86_64-pc-windows-gnu",
+      "url": "https://static.rust-lang.org/dist/2026-10-30/rust-std-nightly-x86_64-pc-windows-gnu.tar.xz",
+      "sha256": "27c2f879ac070c9f5be62baa142c9bd3c3208c570da5ed1d06f76704533d6d55"
+    },
+    {
+      "name": "rust-mingw",
+      "target": "x86_64-pc-windows-gnu",
+      "url": "https://static.rust-lang.org/dist/2026-10-30/rust-mingw-nightly-x86_64-pc-windows-gnu.tar.xz",
+      "sha256": "94a7ab417379be67a675b45bdc63623c2b45fb7ab68d6c7fa5751ad8aeb880b4"
+    }
+  ]
+}

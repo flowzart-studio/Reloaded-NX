@@ -1,0 +1,23 @@
+{
+  "crate": "libc",
+  "version": "0.2.191",
+  "source": "https://crates.io/crates/libc/0.2.191",
+  "licenses": [
+    "MIT",
+    "Apache-2.0"
+  ],
+  "scope": "Changes gated to Horizon AArch64. Core ABI and selected socket ABI facts compared against installed devkitA64/libnx. This does not certify every libc interface or working networking. ARM 3DS definitions retained.",
+  "modified": [
+    {
+      "path": "src/unix/newlib/mod.rs",
+      "upstream_sha256": "f50bf6f39ca8a47e27dde6c0e2773a14cc37daad440005cc54f9cb8bd5ecb03d",
+      "patched_sha256_lf": "3da98d026ac13de6666b3dcec939792fedb85af5fd1f2df19185c7bafed82f17"
+    },
+    {
+      "path": "src/unix/newlib/horizon/mod.rs",
+      "upstream_sha256": "2e35e001b244759e888632d66c21333bbdbeb62c091fd5a7f264d7f535cb6e5c",
+      "patched_sha256_lf": "1551400b726428f639786d55d7b87b959f81bed8199b3599e8454c357084d1a7"
+    }
+  ],
+  "patched_hash_format": "UTF-8 text with LF endings, matching normalized Git source; machine-specific raw build inputs are recorded in validation/horizon-abi-20261104.json"
+}

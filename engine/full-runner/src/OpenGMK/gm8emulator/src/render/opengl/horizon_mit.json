@@ -1,0 +1,1314 @@
+{
+  "header_sha256": "9f0c3889dd3a4c32db1facb4a80fd660812418ce342138eb2c7eb6caf9023172",
+  "header_origin": "switch-mesa 20.1.0-5 SDK archive SHA-256 78328415d06bff75af07091243844ded5a63dc4d4520d2c708787b8d80ad386d",
+  "header_license": "MIT, 2013-2018 The Khronos Group Inc.",
+  "generated_sha256": "907a1affae40528b66a4a9c0dc7c09b3613f9f5576f3dac6684d60a4ddd24174",
+  "functions": [
+    {
+      "name": "ActiveTexture",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glActiveTexture",
+        "glActiveTextureARB"
+      ]
+    },
+    {
+      "name": "AttachShader",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glAttachShader",
+        "glAttachObjectARB"
+      ]
+    },
+    {
+      "name": "BindBuffer",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glBindBuffer",
+        "glBindBufferARB"
+      ]
+    },
+    {
+      "name": "BindBufferBase",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLuint"
+        ],
+        [
+          "a2",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glBindBufferBase",
+        "glBindBufferBaseEXT",
+        "glBindBufferBaseNV"
+      ]
+    },
+    {
+      "name": "BindFramebuffer",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glBindFramebuffer"
+      ]
+    },
+    {
+      "name": "BindTexture",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glBindTexture",
+        "glBindTextureEXT"
+      ]
+    },
+    {
+      "name": "BindVertexArray",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glBindVertexArray",
+        "glBindVertexArrayOES"
+      ]
+    },
+    {
+      "name": "BlendFunc",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glBlendFunc"
+      ]
+    },
+    {
+      "name": "BlitFramebuffer",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLint"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLint"
+        ],
+        [
+          "a3",
+          "GLint"
+        ],
+        [
+          "a4",
+          "GLint"
+        ],
+        [
+          "a5",
+          "GLint"
+        ],
+        [
+          "a6",
+          "GLint"
+        ],
+        [
+          "a7",
+          "GLint"
+        ],
+        [
+          "a8",
+          "GLbitfield"
+        ],
+        [
+          "a9",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glBlitFramebuffer",
+        "glBlitFramebufferEXT",
+        "glBlitFramebufferNV"
+      ]
+    },
+    {
+      "name": "BufferData",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLsizeiptr"
+        ],
+        [
+          "a2",
+          "*const std::ffi::c_void"
+        ],
+        [
+          "a3",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glBufferData",
+        "glBufferDataARB"
+      ]
+    },
+    {
+      "name": "CheckFramebufferStatus",
+      "return": "GLenum",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glCheckFramebufferStatus",
+        "glCheckFramebufferStatusEXT"
+      ]
+    },
+    {
+      "name": "Clear",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLbitfield"
+        ]
+      ],
+      "symbols": [
+        "glClear"
+      ]
+    },
+    {
+      "name": "ClearColor",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLfloat"
+        ],
+        [
+          "a1",
+          "GLfloat"
+        ],
+        [
+          "a2",
+          "GLfloat"
+        ],
+        [
+          "a3",
+          "GLfloat"
+        ]
+      ],
+      "symbols": [
+        "glClearColor"
+      ]
+    },
+    {
+      "name": "CompileShader",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glCompileShader",
+        "glCompileShaderARB"
+      ]
+    },
+    {
+      "name": "CopyTexImage2D",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLenum"
+        ],
+        [
+          "a3",
+          "GLint"
+        ],
+        [
+          "a4",
+          "GLint"
+        ],
+        [
+          "a5",
+          "GLsizei"
+        ],
+        [
+          "a6",
+          "GLsizei"
+        ],
+        [
+          "a7",
+          "GLint"
+        ]
+      ],
+      "symbols": [
+        "glCopyTexImage2D",
+        "glCopyTexImage2DEXT"
+      ]
+    },
+    {
+      "name": "CreateProgram",
+      "return": "GLuint",
+      "arguments": [],
+      "symbols": [
+        "glCreateProgram",
+        "glCreateProgramObjectARB"
+      ]
+    },
+    {
+      "name": "CreateShader",
+      "return": "GLuint",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glCreateShader",
+        "glCreateShaderObjectARB"
+      ]
+    },
+    {
+      "name": "DeleteFramebuffers",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLsizei"
+        ],
+        [
+          "a1",
+          "*const GLuint"
+        ]
+      ],
+      "symbols": [
+        "glDeleteFramebuffers",
+        "glDeleteFramebuffersEXT"
+      ]
+    },
+    {
+      "name": "DeleteShader",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glDeleteShader"
+      ]
+    },
+    {
+      "name": "DeleteTextures",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLsizei"
+        ],
+        [
+          "a1",
+          "*const GLuint"
+        ]
+      ],
+      "symbols": [
+        "glDeleteTextures"
+      ]
+    },
+    {
+      "name": "DepthFunc",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glDepthFunc"
+      ]
+    },
+    {
+      "name": "DepthMask",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLboolean"
+        ]
+      ],
+      "symbols": [
+        "glDepthMask"
+      ]
+    },
+    {
+      "name": "Disable",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glDisable"
+      ]
+    },
+    {
+      "name": "DrawArrays",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLsizei"
+        ]
+      ],
+      "symbols": [
+        "glDrawArrays",
+        "glDrawArraysEXT"
+      ]
+    },
+    {
+      "name": "Enable",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glEnable"
+      ]
+    },
+    {
+      "name": "EnableVertexAttribArray",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glEnableVertexAttribArray",
+        "glEnableVertexAttribArrayARB"
+      ]
+    },
+    {
+      "name": "FramebufferTexture2D",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLenum"
+        ],
+        [
+          "a2",
+          "GLenum"
+        ],
+        [
+          "a3",
+          "GLuint"
+        ],
+        [
+          "a4",
+          "GLint"
+        ]
+      ],
+      "symbols": [
+        "glFramebufferTexture2D",
+        "glFramebufferTexture2DEXT"
+      ]
+    },
+    {
+      "name": "GenBuffers",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLsizei"
+        ],
+        [
+          "a1",
+          "*mut GLuint"
+        ]
+      ],
+      "symbols": [
+        "glGenBuffers",
+        "glGenBuffersARB"
+      ]
+    },
+    {
+      "name": "GenFramebuffers",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLsizei"
+        ],
+        [
+          "a1",
+          "*mut GLuint"
+        ]
+      ],
+      "symbols": [
+        "glGenFramebuffers",
+        "glGenFramebuffersEXT"
+      ]
+    },
+    {
+      "name": "GenTextures",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLsizei"
+        ],
+        [
+          "a1",
+          "*mut GLuint"
+        ]
+      ],
+      "symbols": [
+        "glGenTextures"
+      ]
+    },
+    {
+      "name": "GenVertexArrays",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLsizei"
+        ],
+        [
+          "a1",
+          "*mut GLuint"
+        ]
+      ],
+      "symbols": [
+        "glGenVertexArrays",
+        "glGenVertexArraysAPPLE",
+        "glGenVertexArraysOES"
+      ]
+    },
+    {
+      "name": "GetError",
+      "return": "GLenum",
+      "arguments": [],
+      "symbols": [
+        "glGetError"
+      ]
+    },
+    {
+      "name": "GetIntegerv",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "*mut GLint"
+        ]
+      ],
+      "symbols": [
+        "glGetIntegerv"
+      ]
+    },
+    {
+      "name": "GetProgramInfoLog",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLsizei"
+        ],
+        [
+          "a2",
+          "*mut GLsizei"
+        ],
+        [
+          "a3",
+          "*mut GLchar"
+        ]
+      ],
+      "symbols": [
+        "glGetProgramInfoLog"
+      ]
+    },
+    {
+      "name": "GetProgramiv",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLenum"
+        ],
+        [
+          "a2",
+          "*mut GLint"
+        ]
+      ],
+      "symbols": [
+        "glGetProgramiv"
+      ]
+    },
+    {
+      "name": "GetShaderInfoLog",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLsizei"
+        ],
+        [
+          "a2",
+          "*mut GLsizei"
+        ],
+        [
+          "a3",
+          "*mut GLchar"
+        ]
+      ],
+      "symbols": [
+        "glGetShaderInfoLog"
+      ]
+    },
+    {
+      "name": "GetShaderiv",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLenum"
+        ],
+        [
+          "a2",
+          "*mut GLint"
+        ]
+      ],
+      "symbols": [
+        "glGetShaderiv"
+      ]
+    },
+    {
+      "name": "GetString",
+      "return": "*const GLubyte",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glGetString"
+      ]
+    },
+    {
+      "name": "GetTexImage",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLenum"
+        ],
+        [
+          "a3",
+          "GLenum"
+        ],
+        [
+          "a4",
+          "*mut std::ffi::c_void"
+        ]
+      ],
+      "symbols": [
+        "glGetTexImage"
+      ]
+    },
+    {
+      "name": "GetTexLevelParameteriv",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLenum"
+        ],
+        [
+          "a3",
+          "*mut GLint"
+        ]
+      ],
+      "symbols": [
+        "glGetTexLevelParameteriv"
+      ]
+    },
+    {
+      "name": "GetUniformBlockIndex",
+      "return": "GLuint",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "*const GLchar"
+        ]
+      ],
+      "symbols": [
+        "glGetUniformBlockIndex"
+      ]
+    },
+    {
+      "name": "GetUniformLocation",
+      "return": "GLint",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "*const GLchar"
+        ]
+      ],
+      "symbols": [
+        "glGetUniformLocation",
+        "glGetUniformLocationARB"
+      ]
+    },
+    {
+      "name": "IsEnabled",
+      "return": "GLboolean",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glIsEnabled"
+      ]
+    },
+    {
+      "name": "LinkProgram",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glLinkProgram",
+        "glLinkProgramARB"
+      ]
+    },
+    {
+      "name": "PixelStorei",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLint"
+        ]
+      ],
+      "symbols": [
+        "glPixelStorei"
+      ]
+    },
+    {
+      "name": "ProvokingVertex",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glProvokingVertex",
+        "glProvokingVertexEXT"
+      ]
+    },
+    {
+      "name": "ReadBuffer",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ]
+      ],
+      "symbols": [
+        "glReadBuffer"
+      ]
+    },
+    {
+      "name": "ReadPixels",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLint"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLsizei"
+        ],
+        [
+          "a3",
+          "GLsizei"
+        ],
+        [
+          "a4",
+          "GLenum"
+        ],
+        [
+          "a5",
+          "GLenum"
+        ],
+        [
+          "a6",
+          "*mut std::ffi::c_void"
+        ]
+      ],
+      "symbols": [
+        "glReadPixels"
+      ]
+    },
+    {
+      "name": "Scissor",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLint"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLsizei"
+        ],
+        [
+          "a3",
+          "GLsizei"
+        ]
+      ],
+      "symbols": [
+        "glScissor"
+      ]
+    },
+    {
+      "name": "ShaderSource",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLsizei"
+        ],
+        [
+          "a2",
+          "*const *const GLchar"
+        ],
+        [
+          "a3",
+          "*const GLint"
+        ]
+      ],
+      "symbols": [
+        "glShaderSource",
+        "glShaderSourceARB"
+      ]
+    },
+    {
+      "name": "TexImage2D",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLint"
+        ],
+        [
+          "a3",
+          "GLsizei"
+        ],
+        [
+          "a4",
+          "GLsizei"
+        ],
+        [
+          "a5",
+          "GLint"
+        ],
+        [
+          "a6",
+          "GLenum"
+        ],
+        [
+          "a7",
+          "GLenum"
+        ],
+        [
+          "a8",
+          "*const std::ffi::c_void"
+        ]
+      ],
+      "symbols": [
+        "glTexImage2D"
+      ]
+    },
+    {
+      "name": "TexParameteri",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLenum"
+        ],
+        [
+          "a2",
+          "GLint"
+        ]
+      ],
+      "symbols": [
+        "glTexParameteri"
+      ]
+    },
+    {
+      "name": "TexSubImage2D",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLenum"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLint"
+        ],
+        [
+          "a3",
+          "GLint"
+        ],
+        [
+          "a4",
+          "GLsizei"
+        ],
+        [
+          "a5",
+          "GLsizei"
+        ],
+        [
+          "a6",
+          "GLenum"
+        ],
+        [
+          "a7",
+          "GLenum"
+        ],
+        [
+          "a8",
+          "*const std::ffi::c_void"
+        ]
+      ],
+      "symbols": [
+        "glTexSubImage2D",
+        "glTexSubImage2DEXT"
+      ]
+    },
+    {
+      "name": "Uniform1f",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLint"
+        ],
+        [
+          "a1",
+          "GLfloat"
+        ]
+      ],
+      "symbols": [
+        "glUniform1f",
+        "glUniform1fARB"
+      ]
+    },
+    {
+      "name": "Uniform1i",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLint"
+        ],
+        [
+          "a1",
+          "GLint"
+        ]
+      ],
+      "symbols": [
+        "glUniform1i",
+        "glUniform1iARB"
+      ]
+    },
+    {
+      "name": "Uniform2f",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLint"
+        ],
+        [
+          "a1",
+          "GLfloat"
+        ],
+        [
+          "a2",
+          "GLfloat"
+        ]
+      ],
+      "symbols": [
+        "glUniform2f",
+        "glUniform2fARB"
+      ]
+    },
+    {
+      "name": "UniformBlockBinding",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLuint"
+        ],
+        [
+          "a2",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glUniformBlockBinding"
+      ]
+    },
+    {
+      "name": "UseProgram",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ]
+      ],
+      "symbols": [
+        "glUseProgram",
+        "glUseProgramObjectARB"
+      ]
+    },
+    {
+      "name": "VertexAttribPointer",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLuint"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLenum"
+        ],
+        [
+          "a3",
+          "GLboolean"
+        ],
+        [
+          "a4",
+          "GLsizei"
+        ],
+        [
+          "a5",
+          "*const std::ffi::c_void"
+        ]
+      ],
+      "symbols": [
+        "glVertexAttribPointer",
+        "glVertexAttribPointerARB"
+      ]
+    },
+    {
+      "name": "Viewport",
+      "return": "()",
+      "arguments": [
+        [
+          "a0",
+          "GLint"
+        ],
+        [
+          "a1",
+          "GLint"
+        ],
+        [
+          "a2",
+          "GLsizei"
+        ],
+        [
+          "a3",
+          "GLsizei"
+        ]
+      ],
+      "symbols": [
+        "glViewport"
+      ]
+    }
+  ],
+  "constants": [
+    "ARRAY_BUFFER",
+    "ARRAY_BUFFER_BINDING",
+    "BACK",
+    "BGRA",
+    "BLEND",
+    "CLAMP_TO_EDGE",
+    "COLOR_ATTACHMENT0",
+    "COLOR_BUFFER_BIT",
+    "COMPILE_STATUS",
+    "CULL_FACE",
+    "CURRENT_PROGRAM",
+    "DEPTH_ATTACHMENT",
+    "DEPTH_BUFFER_BIT",
+    "DEPTH_COMPONENT",
+    "DEPTH_COMPONENT16",
+    "DEPTH_COMPONENT24",
+    "DEPTH_TEST",
+    "DRAW_FRAMEBUFFER",
+    "DRAW_FRAMEBUFFER_BINDING",
+    "DST_ALPHA",
+    "DST_COLOR",
+    "FALSE",
+    "FIRST_VERTEX_CONVENTION",
+    "FLOAT",
+    "FRAGMENT_SHADER",
+    "FRAMEBUFFER",
+    "FRAMEBUFFER_COMPLETE",
+    "INFO_LOG_LENGTH",
+    "INVALID_INDEX",
+    "LEQUAL",
+    "LINEAR",
+    "LINES",
+    "LINK_STATUS",
+    "MAJOR_VERSION",
+    "MAX_TEXTURE_SIZE",
+    "MINOR_VERSION",
+    "NEAREST",
+    "ONE",
+    "ONE_MINUS_DST_ALPHA",
+    "ONE_MINUS_DST_COLOR",
+    "ONE_MINUS_SRC_ALPHA",
+    "ONE_MINUS_SRC_COLOR",
+    "PACK_ALIGNMENT",
+    "POINTS",
+    "READ_FRAMEBUFFER",
+    "READ_FRAMEBUFFER_BINDING",
+    "REPEAT",
+    "RGBA",
+    "SCISSOR_TEST",
+    "SRC_ALPHA",
+    "SRC_ALPHA_SATURATE",
+    "SRC_COLOR",
+    "STATIC_DRAW",
+    "STREAM_DRAW",
+    "TEXTURE0",
+    "TEXTURE_2D",
+    "TEXTURE_BINDING_2D",
+    "TEXTURE_HEIGHT",
+    "TEXTURE_MAG_FILTER",
+    "TEXTURE_MIN_FILTER",
+    "TEXTURE_WIDTH",
+    "TEXTURE_WRAP_S",
+    "TEXTURE_WRAP_T",
+    "TRIANGLES",
+    "TRUE",
+    "UNIFORM_BUFFER",
+    "UNSIGNED_BYTE",
+    "UNSIGNED_INT",
+    "UNSIGNED_SHORT",
+    "VENDOR",
+    "VERSION",
+    "VERTEX_ARRAY_BINDING",
+    "VERTEX_SHADER",
+    "VIEWPORT",
+    "ZERO"
+  ],
+  "alias_provenance": "OpenGL API symbol names and existing lookup order; no implementation templates copied",
+  "implementation": "Original typed Option<extern system fn> loader; core symbol first, aliases in prior order; fail on invocation when unresolved"
+}

@@ -1,0 +1,16 @@
+[package]
+name = "reloaded-nx-std-probe"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[workspace]
+
+[lib]
+crate-type = ["staticlib"]
+
+[profile.release]
+panic = "abort"
+
+[patch.crates-io]
+libc = { path = "../vendor/libc-horizon" }

@@ -1,0 +1,462 @@
+[
+  {
+    "label": "sockaddr.size",
+    "c": "sizeof(struct sockaddr)",
+    "rust": "size_of::<libc::sockaddr>()"
+  },
+  {
+    "label": "sockaddr.align",
+    "c": "_Alignof(struct sockaddr)",
+    "rust": "align_of::<libc::sockaddr>()"
+  },
+  {
+    "label": "sockaddr.sa_family.offset",
+    "c": "offsetof(struct sockaddr,sa_family)",
+    "rust": "offset_of!(libc::sockaddr,sa_family)"
+  },
+  {
+    "label": "sockaddr.sa_data.offset",
+    "c": "offsetof(struct sockaddr,sa_data)",
+    "rust": "offset_of!(libc::sockaddr,sa_data)"
+  },
+  {
+    "label": "sockaddr_storage.size",
+    "c": "sizeof(struct sockaddr_storage)",
+    "rust": "size_of::<libc::sockaddr_storage>()"
+  },
+  {
+    "label": "sockaddr_storage.align",
+    "c": "_Alignof(struct sockaddr_storage)",
+    "rust": "align_of::<libc::sockaddr_storage>()"
+  },
+  {
+    "label": "sockaddr_storage.ss_family.offset",
+    "c": "offsetof(struct sockaddr_storage,ss_family)",
+    "rust": "offset_of!(libc::sockaddr_storage,ss_family)"
+  },
+  {
+    "label": "sockaddr_in.size",
+    "c": "sizeof(struct sockaddr_in)",
+    "rust": "size_of::<libc::sockaddr_in>()"
+  },
+  {
+    "label": "sockaddr_in.align",
+    "c": "_Alignof(struct sockaddr_in)",
+    "rust": "align_of::<libc::sockaddr_in>()"
+  },
+  {
+    "label": "sockaddr_in.sin_family.offset",
+    "c": "offsetof(struct sockaddr_in,sin_family)",
+    "rust": "offset_of!(libc::sockaddr_in,sin_family)"
+  },
+  {
+    "label": "sockaddr_in.sin_port.offset",
+    "c": "offsetof(struct sockaddr_in,sin_port)",
+    "rust": "offset_of!(libc::sockaddr_in,sin_port)"
+  },
+  {
+    "label": "sockaddr_in.sin_addr.offset",
+    "c": "offsetof(struct sockaddr_in,sin_addr)",
+    "rust": "offset_of!(libc::sockaddr_in,sin_addr)"
+  },
+  {
+    "label": "sockaddr_in.sin_zero.offset",
+    "c": "offsetof(struct sockaddr_in,sin_zero)",
+    "rust": "offset_of!(libc::sockaddr_in,sin_zero)"
+  },
+  {
+    "label": "sockaddr_in6.size",
+    "c": "sizeof(struct sockaddr_in6)",
+    "rust": "size_of::<libc::sockaddr_in6>()"
+  },
+  {
+    "label": "sockaddr_in6.align",
+    "c": "_Alignof(struct sockaddr_in6)",
+    "rust": "align_of::<libc::sockaddr_in6>()"
+  },
+  {
+    "label": "sockaddr_in6.sin6_family.offset",
+    "c": "offsetof(struct sockaddr_in6,sin6_family)",
+    "rust": "offset_of!(libc::sockaddr_in6,sin6_family)"
+  },
+  {
+    "label": "sockaddr_in6.sin6_port.offset",
+    "c": "offsetof(struct sockaddr_in6,sin6_port)",
+    "rust": "offset_of!(libc::sockaddr_in6,sin6_port)"
+  },
+  {
+    "label": "sockaddr_in6.sin6_flowinfo.offset",
+    "c": "offsetof(struct sockaddr_in6,sin6_flowinfo)",
+    "rust": "offset_of!(libc::sockaddr_in6,sin6_flowinfo)"
+  },
+  {
+    "label": "sockaddr_in6.sin6_addr.offset",
+    "c": "offsetof(struct sockaddr_in6,sin6_addr)",
+    "rust": "offset_of!(libc::sockaddr_in6,sin6_addr)"
+  },
+  {
+    "label": "sockaddr_in6.sin6_scope_id.offset",
+    "c": "offsetof(struct sockaddr_in6,sin6_scope_id)",
+    "rust": "offset_of!(libc::sockaddr_in6,sin6_scope_id)"
+  },
+  {
+    "label": "pollfd.size",
+    "c": "sizeof(struct pollfd)",
+    "rust": "size_of::<libc::pollfd>()"
+  },
+  {
+    "label": "pollfd.align",
+    "c": "_Alignof(struct pollfd)",
+    "rust": "align_of::<libc::pollfd>()"
+  },
+  {
+    "label": "pollfd.fd.offset",
+    "c": "offsetof(struct pollfd,fd)",
+    "rust": "offset_of!(libc::pollfd,fd)"
+  },
+  {
+    "label": "pollfd.events.offset",
+    "c": "offsetof(struct pollfd,events)",
+    "rust": "offset_of!(libc::pollfd,events)"
+  },
+  {
+    "label": "pollfd.revents.offset",
+    "c": "offsetof(struct pollfd,revents)",
+    "rust": "offset_of!(libc::pollfd,revents)"
+  },
+  {
+    "label": "hostent.size",
+    "c": "sizeof(struct hostent)",
+    "rust": "size_of::<libc::hostent>()"
+  },
+  {
+    "label": "hostent.align",
+    "c": "_Alignof(struct hostent)",
+    "rust": "align_of::<libc::hostent>()"
+  },
+  {
+    "label": "hostent.h_name.offset",
+    "c": "offsetof(struct hostent,h_name)",
+    "rust": "offset_of!(libc::hostent,h_name)"
+  },
+  {
+    "label": "hostent.h_aliases.offset",
+    "c": "offsetof(struct hostent,h_aliases)",
+    "rust": "offset_of!(libc::hostent,h_aliases)"
+  },
+  {
+    "label": "hostent.h_addrtype.offset",
+    "c": "offsetof(struct hostent,h_addrtype)",
+    "rust": "offset_of!(libc::hostent,h_addrtype)"
+  },
+  {
+    "label": "hostent.h_length.offset",
+    "c": "offsetof(struct hostent,h_length)",
+    "rust": "offset_of!(libc::hostent,h_length)"
+  },
+  {
+    "label": "hostent.h_addr_list.offset",
+    "c": "offsetof(struct hostent,h_addr_list)",
+    "rust": "offset_of!(libc::hostent,h_addr_list)"
+  },
+  {
+    "label": "POLLIN",
+    "c": "POLLIN",
+    "rust": "libc::POLLIN"
+  },
+  {
+    "label": "POLLOUT",
+    "c": "POLLOUT",
+    "rust": "libc::POLLOUT"
+  },
+  {
+    "label": "POLLERR",
+    "c": "POLLERR",
+    "rust": "libc::POLLERR"
+  },
+  {
+    "label": "AF_INET",
+    "c": "AF_INET",
+    "rust": "libc::AF_INET"
+  },
+  {
+    "label": "AF_INET6",
+    "c": "AF_INET6",
+    "rust": "libc::AF_INET6"
+  },
+  {
+    "label": "SOL_SOCKET",
+    "c": "SOL_SOCKET",
+    "rust": "libc::SOL_SOCKET"
+  },
+  {
+    "label": "SO_ERROR",
+    "c": "SO_ERROR",
+    "rust": "libc::SO_ERROR"
+  },
+  {
+    "label": "SO_REUSEADDR",
+    "c": "SO_REUSEADDR",
+    "rust": "libc::SO_REUSEADDR"
+  },
+  {
+    "label": "addrinfo.size",
+    "c": "sizeof(struct addrinfo)",
+    "rust": "size_of::<libc::addrinfo>()"
+  },
+  {
+    "label": "addrinfo.align",
+    "c": "_Alignof(struct addrinfo)",
+    "rust": "align_of::<libc::addrinfo>()"
+  },
+  {
+    "label": "addrinfo.ai_flags.offset",
+    "c": "offsetof(struct addrinfo,ai_flags)",
+    "rust": "offset_of!(libc::addrinfo,ai_flags)"
+  },
+  {
+    "label": "addrinfo.ai_family.offset",
+    "c": "offsetof(struct addrinfo,ai_family)",
+    "rust": "offset_of!(libc::addrinfo,ai_family)"
+  },
+  {
+    "label": "addrinfo.ai_socktype.offset",
+    "c": "offsetof(struct addrinfo,ai_socktype)",
+    "rust": "offset_of!(libc::addrinfo,ai_socktype)"
+  },
+  {
+    "label": "addrinfo.ai_protocol.offset",
+    "c": "offsetof(struct addrinfo,ai_protocol)",
+    "rust": "offset_of!(libc::addrinfo,ai_protocol)"
+  },
+  {
+    "label": "addrinfo.ai_addrlen.offset",
+    "c": "offsetof(struct addrinfo,ai_addrlen)",
+    "rust": "offset_of!(libc::addrinfo,ai_addrlen)"
+  },
+  {
+    "label": "addrinfo.ai_canonname.offset",
+    "c": "offsetof(struct addrinfo,ai_canonname)",
+    "rust": "offset_of!(libc::addrinfo,ai_canonname)"
+  },
+  {
+    "label": "addrinfo.ai_addr.offset",
+    "c": "offsetof(struct addrinfo,ai_addr)",
+    "rust": "offset_of!(libc::addrinfo,ai_addr)"
+  },
+  {
+    "label": "addrinfo.ai_next.offset",
+    "c": "offsetof(struct addrinfo,ai_next)",
+    "rust": "offset_of!(libc::addrinfo,ai_next)"
+  },
+  {
+    "label": "timeval.size",
+    "c": "sizeof(struct timeval)",
+    "rust": "size_of::<libc::timeval>()"
+  },
+  {
+    "label": "timeval.align",
+    "c": "_Alignof(struct timeval)",
+    "rust": "align_of::<libc::timeval>()"
+  },
+  {
+    "label": "timeval.tv_sec.offset",
+    "c": "offsetof(struct timeval,tv_sec)",
+    "rust": "offset_of!(libc::timeval,tv_sec)"
+  },
+  {
+    "label": "timeval.tv_usec.offset",
+    "c": "offsetof(struct timeval,tv_usec)",
+    "rust": "offset_of!(libc::timeval,tv_usec)"
+  },
+  {
+    "label": "iovec.size",
+    "c": "sizeof(struct iovec)",
+    "rust": "size_of::<libc::iovec>()"
+  },
+  {
+    "label": "iovec.align",
+    "c": "_Alignof(struct iovec)",
+    "rust": "align_of::<libc::iovec>()"
+  },
+  {
+    "label": "iovec.iov_base.offset",
+    "c": "offsetof(struct iovec,iov_base)",
+    "rust": "offset_of!(libc::iovec,iov_base)"
+  },
+  {
+    "label": "iovec.iov_len.offset",
+    "c": "offsetof(struct iovec,iov_len)",
+    "rust": "offset_of!(libc::iovec,iov_len)"
+  },
+  {
+    "label": "linger.size",
+    "c": "sizeof(struct linger)",
+    "rust": "size_of::<libc::linger>()"
+  },
+  {
+    "label": "linger.align",
+    "c": "_Alignof(struct linger)",
+    "rust": "align_of::<libc::linger>()"
+  },
+  {
+    "label": "linger.l_onoff.offset",
+    "c": "offsetof(struct linger,l_onoff)",
+    "rust": "offset_of!(libc::linger,l_onoff)"
+  },
+  {
+    "label": "linger.l_linger.offset",
+    "c": "offsetof(struct linger,l_linger)",
+    "rust": "offset_of!(libc::linger,l_linger)"
+  },
+  {
+    "label": "SO_TYPE",
+    "c": "SO_TYPE",
+    "rust": "libc::SO_TYPE"
+  },
+  {
+    "label": "SOCK_STREAM",
+    "c": "SOCK_STREAM",
+    "rust": "libc::SOCK_STREAM"
+  },
+  {
+    "label": "SOCK_DGRAM",
+    "c": "SOCK_DGRAM",
+    "rust": "libc::SOCK_DGRAM"
+  },
+  {
+    "label": "SO_SNDTIMEO",
+    "c": "SO_SNDTIMEO",
+    "rust": "libc::SO_SNDTIMEO"
+  },
+  {
+    "label": "SO_RCVTIMEO",
+    "c": "SO_RCVTIMEO",
+    "rust": "libc::SO_RCVTIMEO"
+  },
+  {
+    "label": "IPPROTO_TCP",
+    "c": "IPPROTO_TCP",
+    "rust": "libc::IPPROTO_TCP"
+  },
+  {
+    "label": "TCP_NODELAY",
+    "c": "TCP_NODELAY",
+    "rust": "libc::TCP_NODELAY"
+  },
+  {
+    "label": "SO_BROADCAST",
+    "c": "SO_BROADCAST",
+    "rust": "libc::SO_BROADCAST"
+  },
+  {
+    "label": "SO_KEEPALIVE",
+    "c": "SO_KEEPALIVE",
+    "rust": "libc::SO_KEEPALIVE"
+  },
+  {
+    "label": "SO_LINGER",
+    "c": "SO_LINGER",
+    "rust": "libc::SO_LINGER"
+  },
+  {
+    "label": "SO_REUSEPORT",
+    "c": "SO_REUSEPORT",
+    "rust": "libc::SO_REUSEPORT"
+  },
+  {
+    "label": "MSG_PEEK",
+    "c": "MSG_PEEK",
+    "rust": "libc::MSG_PEEK"
+  },
+  {
+    "label": "MSG_DONTWAIT",
+    "c": "MSG_DONTWAIT",
+    "rust": "libc::MSG_DONTWAIT"
+  },
+  {
+    "label": "MSG_WAITALL",
+    "c": "MSG_WAITALL",
+    "rust": "libc::MSG_WAITALL"
+  },
+  {
+    "label": "AI_PASSIVE",
+    "c": "AI_PASSIVE",
+    "rust": "libc::AI_PASSIVE"
+  },
+  {
+    "label": "AI_CANONNAME",
+    "c": "AI_CANONNAME",
+    "rust": "libc::AI_CANONNAME"
+  },
+  {
+    "label": "AI_NUMERICHOST",
+    "c": "AI_NUMERICHOST",
+    "rust": "libc::AI_NUMERICHOST"
+  },
+  {
+    "label": "AI_NUMERICSERV",
+    "c": "AI_NUMERICSERV",
+    "rust": "libc::AI_NUMERICSERV"
+  },
+  {
+    "label": "EAI_AGAIN",
+    "c": "EAI_AGAIN",
+    "rust": "libc::EAI_AGAIN"
+  },
+  {
+    "label": "EAI_NONAME",
+    "c": "EAI_NONAME",
+    "rust": "libc::EAI_NONAME"
+  },
+  {
+    "label": "SHUT_RD",
+    "c": "SHUT_RD",
+    "rust": "libc::SHUT_RD"
+  },
+  {
+    "label": "SHUT_WR",
+    "c": "SHUT_WR",
+    "rust": "libc::SHUT_WR"
+  },
+  {
+    "label": "SHUT_RDWR",
+    "c": "SHUT_RDWR",
+    "rust": "libc::SHUT_RDWR"
+  },
+  {
+    "label": "EAI_FAMILY",
+    "c": "EAI_FAMILY",
+    "rust": "libc::EAI_FAMILY"
+  },
+  {
+    "label": "EAI_MEMORY",
+    "c": "EAI_MEMORY",
+    "rust": "libc::EAI_MEMORY"
+  },
+  {
+    "label": "EAI_SOCKTYPE",
+    "c": "EAI_SOCKTYPE",
+    "rust": "libc::EAI_SOCKTYPE"
+  },
+  {
+    "label": "AI_ADDRCONFIG",
+    "c": "AI_ADDRCONFIG",
+    "rust": "libc::AI_ADDRCONFIG"
+  },
+  {
+    "label": "TCP_MAXSEG",
+    "c": "TCP_MAXSEG",
+    "rust": "libc::TCP_MAXSEG"
+  },
+  {
+    "label": "NI_NUMERICSERV",
+    "c": "NI_NUMERICSERV",
+    "rust": "libc::NI_NUMERICSERV"
+  },
+  {
+    "label": "NI_DGRAM",
+    "c": "NI_DGRAM",
+    "rust": "libc::NI_DGRAM"
+  }
+]

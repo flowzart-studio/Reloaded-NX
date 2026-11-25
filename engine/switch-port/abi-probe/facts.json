@@ -1,0 +1,427 @@
+[
+  {
+    "label": "dev_t.size",
+    "c": "sizeof(dev_t)",
+    "rust": "size_of::<libc::dev_t>()"
+  },
+  {
+    "label": "dev_t.align",
+    "c": "_Alignof(dev_t)",
+    "rust": "align_of::<libc::dev_t>()"
+  },
+  {
+    "label": "ino_t.size",
+    "c": "sizeof(ino_t)",
+    "rust": "size_of::<libc::ino_t>()"
+  },
+  {
+    "label": "ino_t.align",
+    "c": "_Alignof(ino_t)",
+    "rust": "align_of::<libc::ino_t>()"
+  },
+  {
+    "label": "off_t.size",
+    "c": "sizeof(off_t)",
+    "rust": "size_of::<libc::off_t>()"
+  },
+  {
+    "label": "off_t.align",
+    "c": "_Alignof(off_t)",
+    "rust": "align_of::<libc::off_t>()"
+  },
+  {
+    "label": "mode_t.size",
+    "c": "sizeof(mode_t)",
+    "rust": "size_of::<libc::mode_t>()"
+  },
+  {
+    "label": "mode_t.align",
+    "c": "_Alignof(mode_t)",
+    "rust": "align_of::<libc::mode_t>()"
+  },
+  {
+    "label": "nlink_t.size",
+    "c": "sizeof(nlink_t)",
+    "rust": "size_of::<libc::nlink_t>()"
+  },
+  {
+    "label": "nlink_t.align",
+    "c": "_Alignof(nlink_t)",
+    "rust": "align_of::<libc::nlink_t>()"
+  },
+  {
+    "label": "uid_t.size",
+    "c": "sizeof(uid_t)",
+    "rust": "size_of::<libc::uid_t>()"
+  },
+  {
+    "label": "uid_t.align",
+    "c": "_Alignof(uid_t)",
+    "rust": "align_of::<libc::uid_t>()"
+  },
+  {
+    "label": "gid_t.size",
+    "c": "sizeof(gid_t)",
+    "rust": "size_of::<libc::gid_t>()"
+  },
+  {
+    "label": "gid_t.align",
+    "c": "_Alignof(gid_t)",
+    "rust": "align_of::<libc::gid_t>()"
+  },
+  {
+    "label": "blksize_t.size",
+    "c": "sizeof(blksize_t)",
+    "rust": "size_of::<libc::blksize_t>()"
+  },
+  {
+    "label": "blksize_t.align",
+    "c": "_Alignof(blksize_t)",
+    "rust": "align_of::<libc::blksize_t>()"
+  },
+  {
+    "label": "blkcnt_t.size",
+    "c": "sizeof(blkcnt_t)",
+    "rust": "size_of::<libc::blkcnt_t>()"
+  },
+  {
+    "label": "blkcnt_t.align",
+    "c": "_Alignof(blkcnt_t)",
+    "rust": "align_of::<libc::blkcnt_t>()"
+  },
+  {
+    "label": "time_t.size",
+    "c": "sizeof(time_t)",
+    "rust": "size_of::<libc::time_t>()"
+  },
+  {
+    "label": "time_t.align",
+    "c": "_Alignof(time_t)",
+    "rust": "align_of::<libc::time_t>()"
+  },
+  {
+    "label": "clockid_t.size",
+    "c": "sizeof(clockid_t)",
+    "rust": "size_of::<libc::clockid_t>()"
+  },
+  {
+    "label": "clockid_t.align",
+    "c": "_Alignof(clockid_t)",
+    "rust": "align_of::<libc::clockid_t>()"
+  },
+  {
+    "label": "pthread_t.size",
+    "c": "sizeof(pthread_t)",
+    "rust": "size_of::<libc::pthread_t>()"
+  },
+  {
+    "label": "pthread_t.align",
+    "c": "_Alignof(pthread_t)",
+    "rust": "align_of::<libc::pthread_t>()"
+  },
+  {
+    "label": "pthread_key_t.size",
+    "c": "sizeof(pthread_key_t)",
+    "rust": "size_of::<libc::pthread_key_t>()"
+  },
+  {
+    "label": "pthread_key_t.align",
+    "c": "_Alignof(pthread_key_t)",
+    "rust": "align_of::<libc::pthread_key_t>()"
+  },
+  {
+    "label": "pthread_attr_t.size",
+    "c": "sizeof(pthread_attr_t)",
+    "rust": "size_of::<libc::pthread_attr_t>()"
+  },
+  {
+    "label": "pthread_attr_t.align",
+    "c": "_Alignof(pthread_attr_t)",
+    "rust": "align_of::<libc::pthread_attr_t>()"
+  },
+  {
+    "label": "pthread_mutex_t.size",
+    "c": "sizeof(pthread_mutex_t)",
+    "rust": "size_of::<libc::pthread_mutex_t>()"
+  },
+  {
+    "label": "pthread_mutex_t.align",
+    "c": "_Alignof(pthread_mutex_t)",
+    "rust": "align_of::<libc::pthread_mutex_t>()"
+  },
+  {
+    "label": "pthread_mutexattr_t.size",
+    "c": "sizeof(pthread_mutexattr_t)",
+    "rust": "size_of::<libc::pthread_mutexattr_t>()"
+  },
+  {
+    "label": "pthread_mutexattr_t.align",
+    "c": "_Alignof(pthread_mutexattr_t)",
+    "rust": "align_of::<libc::pthread_mutexattr_t>()"
+  },
+  {
+    "label": "pthread_cond_t.size",
+    "c": "sizeof(pthread_cond_t)",
+    "rust": "size_of::<libc::pthread_cond_t>()"
+  },
+  {
+    "label": "pthread_cond_t.align",
+    "c": "_Alignof(pthread_cond_t)",
+    "rust": "align_of::<libc::pthread_cond_t>()"
+  },
+  {
+    "label": "pthread_condattr_t.size",
+    "c": "sizeof(pthread_condattr_t)",
+    "rust": "size_of::<libc::pthread_condattr_t>()"
+  },
+  {
+    "label": "pthread_condattr_t.align",
+    "c": "_Alignof(pthread_condattr_t)",
+    "rust": "align_of::<libc::pthread_condattr_t>()"
+  },
+  {
+    "label": "pthread_rwlock_t.size",
+    "c": "sizeof(pthread_rwlock_t)",
+    "rust": "size_of::<libc::pthread_rwlock_t>()"
+  },
+  {
+    "label": "pthread_rwlock_t.align",
+    "c": "_Alignof(pthread_rwlock_t)",
+    "rust": "align_of::<libc::pthread_rwlock_t>()"
+  },
+  {
+    "label": "pthread_rwlockattr_t.size",
+    "c": "sizeof(pthread_rwlockattr_t)",
+    "rust": "size_of::<libc::pthread_rwlockattr_t>()"
+  },
+  {
+    "label": "pthread_rwlockattr_t.align",
+    "c": "_Alignof(pthread_rwlockattr_t)",
+    "rust": "align_of::<libc::pthread_rwlockattr_t>()"
+  },
+  {
+    "label": "stat.size",
+    "c": "sizeof(struct stat)",
+    "rust": "size_of::<libc::stat>()"
+  },
+  {
+    "label": "stat.align",
+    "c": "_Alignof(struct stat)",
+    "rust": "align_of::<libc::stat>()"
+  },
+  {
+    "label": "stat.st_dev.offset",
+    "c": "offsetof(struct stat,st_dev)",
+    "rust": "offset_of!(libc::stat,st_dev)"
+  },
+  {
+    "label": "stat.st_ino.offset",
+    "c": "offsetof(struct stat,st_ino)",
+    "rust": "offset_of!(libc::stat,st_ino)"
+  },
+  {
+    "label": "stat.st_mode.offset",
+    "c": "offsetof(struct stat,st_mode)",
+    "rust": "offset_of!(libc::stat,st_mode)"
+  },
+  {
+    "label": "stat.st_nlink.offset",
+    "c": "offsetof(struct stat,st_nlink)",
+    "rust": "offset_of!(libc::stat,st_nlink)"
+  },
+  {
+    "label": "stat.st_uid.offset",
+    "c": "offsetof(struct stat,st_uid)",
+    "rust": "offset_of!(libc::stat,st_uid)"
+  },
+  {
+    "label": "stat.st_gid.offset",
+    "c": "offsetof(struct stat,st_gid)",
+    "rust": "offset_of!(libc::stat,st_gid)"
+  },
+  {
+    "label": "stat.st_rdev.offset",
+    "c": "offsetof(struct stat,st_rdev)",
+    "rust": "offset_of!(libc::stat,st_rdev)"
+  },
+  {
+    "label": "stat.st_size.offset",
+    "c": "offsetof(struct stat,st_size)",
+    "rust": "offset_of!(libc::stat,st_size)"
+  },
+  {
+    "label": "stat.st_atim.offset",
+    "c": "offsetof(struct stat,st_atim)",
+    "rust": "offset_of!(libc::stat,st_atim)"
+  },
+  {
+    "label": "stat.st_mtim.offset",
+    "c": "offsetof(struct stat,st_mtim)",
+    "rust": "offset_of!(libc::stat,st_mtim)"
+  },
+  {
+    "label": "stat.st_ctim.offset",
+    "c": "offsetof(struct stat,st_ctim)",
+    "rust": "offset_of!(libc::stat,st_ctim)"
+  },
+  {
+    "label": "stat.st_blksize.offset",
+    "c": "offsetof(struct stat,st_blksize)",
+    "rust": "offset_of!(libc::stat,st_blksize)"
+  },
+  {
+    "label": "stat.st_blocks.offset",
+    "c": "offsetof(struct stat,st_blocks)",
+    "rust": "offset_of!(libc::stat,st_blocks)"
+  },
+  {
+    "label": "stat.st_spare4.offset",
+    "c": "offsetof(struct stat,st_spare4)",
+    "rust": "offset_of!(libc::stat,st_spare4)"
+  },
+  {
+    "label": "dirent.size",
+    "c": "sizeof(struct dirent)",
+    "rust": "size_of::<libc::dirent>()"
+  },
+  {
+    "label": "dirent.align",
+    "c": "_Alignof(struct dirent)",
+    "rust": "align_of::<libc::dirent>()"
+  },
+  {
+    "label": "dirent.d_ino.offset",
+    "c": "offsetof(struct dirent,d_ino)",
+    "rust": "offset_of!(libc::dirent,d_ino)"
+  },
+  {
+    "label": "dirent.d_type.offset",
+    "c": "offsetof(struct dirent,d_type)",
+    "rust": "offset_of!(libc::dirent,d_type)"
+  },
+  {
+    "label": "dirent.d_name.offset",
+    "c": "offsetof(struct dirent,d_name)",
+    "rust": "offset_of!(libc::dirent,d_name)"
+  },
+  {
+    "label": "timespec.size",
+    "c": "sizeof(struct timespec)",
+    "rust": "size_of::<libc::timespec>()"
+  },
+  {
+    "label": "timespec.align",
+    "c": "_Alignof(struct timespec)",
+    "rust": "align_of::<libc::timespec>()"
+  },
+  {
+    "label": "timespec.tv_sec.offset",
+    "c": "offsetof(struct timespec,tv_sec)",
+    "rust": "offset_of!(libc::timespec,tv_sec)"
+  },
+  {
+    "label": "timespec.tv_nsec.offset",
+    "c": "offsetof(struct timespec,tv_nsec)",
+    "rust": "offset_of!(libc::timespec,tv_nsec)"
+  },
+  {
+    "label": "O_RDONLY",
+    "c": "O_RDONLY",
+    "rust": "libc::O_RDONLY"
+  },
+  {
+    "label": "O_WRONLY",
+    "c": "O_WRONLY",
+    "rust": "libc::O_WRONLY"
+  },
+  {
+    "label": "O_RDWR",
+    "c": "O_RDWR",
+    "rust": "libc::O_RDWR"
+  },
+  {
+    "label": "O_CREAT",
+    "c": "O_CREAT",
+    "rust": "libc::O_CREAT"
+  },
+  {
+    "label": "O_EXCL",
+    "c": "O_EXCL",
+    "rust": "libc::O_EXCL"
+  },
+  {
+    "label": "O_TRUNC",
+    "c": "O_TRUNC",
+    "rust": "libc::O_TRUNC"
+  },
+  {
+    "label": "O_APPEND",
+    "c": "O_APPEND",
+    "rust": "libc::O_APPEND"
+  },
+  {
+    "label": "O_CLOEXEC",
+    "c": "O_CLOEXEC",
+    "rust": "libc::O_CLOEXEC"
+  },
+  {
+    "label": "CLOCK_REALTIME",
+    "c": "CLOCK_REALTIME",
+    "rust": "libc::CLOCK_REALTIME"
+  },
+  {
+    "label": "CLOCK_MONOTONIC",
+    "c": "CLOCK_MONOTONIC",
+    "rust": "libc::CLOCK_MONOTONIC"
+  },
+  {
+    "label": "PTHREAD_MUTEX_NORMAL",
+    "c": "PTHREAD_MUTEX_NORMAL",
+    "rust": "libc::PTHREAD_MUTEX_NORMAL"
+  },
+  {
+    "label": "PTHREAD_MUTEX_RECURSIVE",
+    "c": "PTHREAD_MUTEX_RECURSIVE",
+    "rust": "libc::PTHREAD_MUTEX_RECURSIVE"
+  },
+  {
+    "label": "PTHREAD_MUTEX_ERRORCHECK",
+    "c": "PTHREAD_MUTEX_ERRORCHECK",
+    "rust": "libc::PTHREAD_MUTEX_ERRORCHECK"
+  },
+  {
+    "label": "EINTR",
+    "c": "EINTR",
+    "rust": "libc::EINTR"
+  },
+  {
+    "label": "EINVAL",
+    "c": "EINVAL",
+    "rust": "libc::EINVAL"
+  },
+  {
+    "label": "ETIMEDOUT",
+    "c": "ETIMEDOUT",
+    "rust": "libc::ETIMEDOUT"
+  },
+  {
+    "label": "EAGAIN",
+    "c": "EAGAIN",
+    "rust": "libc::EAGAIN"
+  },
+  {
+    "label": "ENOENT",
+    "c": "ENOENT",
+    "rust": "libc::ENOENT"
+  },
+  {
+    "label": "S_IFREG",
+    "c": "S_IFREG",
+    "rust": "libc::S_IFREG"
+  },
+  {
+    "label": "S_IFDIR",
+    "c": "S_IFDIR",
+    "rust": "libc::S_IFDIR"
+  }
+]
